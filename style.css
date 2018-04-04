@@ -1,0 +1,183 @@
+body {
+	margin: 0px;
+}
+
+.header {
+	background: #00aeff;
+	height: 100px;
+}
+
+.footer {
+	background: #00d169;
+  	left: 0;
+ 	bottom: 0;
+  	width: 100%;
+  	display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.content-header, .main {
+	width: 900px;
+	margin: 0 auto;
+	display: block;
+}
+
+.logo {
+	height: 40px;
+	width: 250px;
+	background: #009bdd;
+	margin-top: 30px;
+	float: left;
+}
+
+.sidebar {
+	height: 40px;
+	width: 250px;
+	background: #36c3ff;	
+    top: 30px;
+    margin-top: 30px;
+	float: right;
+}
+
+.column-1 {
+	width: 25%;
+	height: 700px;
+	background: #ff5607;
+	float: left;
+}
+
+div .element {
+    width: 75%;
+	height: 30px;
+	background: #e84900;
+	float: left;
+	margin-left: 10%;
+	margin-top: 22px;
+}
+
+.column-2 {
+	width: 73%;
+	height: 670px;
+	background: #fff;
+	float: right;
+	margin: 22px 0 0 0;
+}
+
+.img {
+	margin: 0 60px 0 0;
+	float: left;
+    width: 40%;
+    height: 225px;
+    background-color: #fcc019;
+}
+
+.h1-content {
+    background: #9c9c9c;
+	height: 30px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.content-row {
+	background: #cdcdcd;
+    height: 25px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.footer-column {
+	width: 10%;
+	padding: 10px;
+    margin-left: 10px;
+    background-color: #02b15a;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column-row {
+	width: 100%;
+    background-color: #038042;
+    height: 20px;
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 1240px) {
+	
+.content-header, .main {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.logo {
+	height: 40px;
+	width: 200px;
+	background: #009bdd;
+	margin-top: 30px;
+	float: left;
+	margin-left: 20px;
+}
+
+.sidebar {
+	height: 40px;
+	width: 200px;
+	background: #36c3ff;	
+    top: 30px;
+    margin-top: 30px;
+	float: right;
+	margin-right: 20px;
+}
+}
+
+@media screen and (max-width: 500px) {
+	
+.plus {
+	display: none;
+}
+	
+div.header {
+	background: #00aeff;
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+	padding-top: 20px;
+}
+
+.logo, .sidebar {
+	height: 80px;
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 10px;
+}
+
+.column-1 {
+	width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+div.element {
+	width: 20%;
+    margin: 0 5%;
+}
+
+.column-2 {
+	float: none;
+	margin: 0;
+	width: 100%;
+
+}
+
+.img {
+	width: 100%;
+	margin: 0;
+	float: none;
+	height: 350px;
+	margin-bottom: 20px;
+}
+
+}
