@@ -186,10 +186,11 @@ div.element {
 	}
 
 .footer-column {
-    width: 90%;
+    width: 80%;
     background-color: #02b15a;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 }
