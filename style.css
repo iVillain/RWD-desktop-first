@@ -192,5 +192,12 @@ div.element {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin-bottom: 10px
+}
+.column-row {
+    width: 20%;
+    background-color: #038042;
+    height: 20px;
+    margin: 5px 0;
 }
 }
